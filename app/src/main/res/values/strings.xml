@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TablingHomework</string>
+
+    <string name="nav_home">홈</string>
+    <string name="nav_search">검색</string>
+    <string name="nav_store_interest">관심매장</string>
+    <string name="nav_my">마이</string>
+
+    <string name="fragment_title_home">홈 화면</string>
+    <string name="fragment_title_search">검색 화면</string>
+    <string name="fragment_title_store_interest">관심매장 화면</string>
+    <string name="fragment_title_my">마이 화면</string>
+
+    <string name="toolbar_title_store_interest">관심매장</string>
+
+    <string name="tab_title_save">저장</string>
+    <string name="tab_title_recent">최근본</string>
+
+    <string name="text_quick_booking">즉시예약</string>
+    <string name="text_remote_waiting">원격줄서기</string>
+
+    <string name="content_description_home">Home</string>
+    <string name="content_description_search">Search</string>
+    <string name="content_description_store_interest">Store Interest</string>
+    <string name="content_description_my">My</string>
+    <string name="content_description_thumbnail">Thumbnail</string>
+    <string name="content_description_rating">Rating</string>
+
+</resources>
