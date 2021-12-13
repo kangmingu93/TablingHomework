@@ -24,4 +24,13 @@ class RecentStoreViewModel @Inject constructor(
         )
     }
 
+    fun clearDisposable() {
+        useCase.dispose()
+    }
+
+    override fun onCleared() {
+        super.onCleared()
+        useCase.disposeLast()
+    }
+
 }

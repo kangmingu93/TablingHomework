@@ -40,6 +40,14 @@ class SaveStoreFragment : DaggerFragment() {
         viewModel.loadStores()
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding = null
+        viewModel.run {
+            clearDisposable()
+        }
+    }
+
     private fun setUpRecyclerView() {
         binding.recyclerView.layoutManager = LinearLayoutManager(context)
         binding.recyclerView.adapter = mAdapter
