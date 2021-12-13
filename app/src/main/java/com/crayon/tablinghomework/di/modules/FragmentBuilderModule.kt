@@ -1,8 +1,5 @@
 package com.crayon.tablinghomework.di.modules
 
-import com.crayon.tablinghomework.presentation.MainActivity
-import com.crayon.tablinghomework.di.scopes.ActivityScoped
-import com.crayon.tablinghomework.di.scopes.FragmentScoped
 import com.crayon.tablinghomework.presentation.navigation.home.HomeFragment
 import com.crayon.tablinghomework.presentation.navigation.my.MyFragment
 import com.crayon.tablinghomework.presentation.navigation.search.SearchFragment

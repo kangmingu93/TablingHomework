@@ -36,7 +36,7 @@ class StoreBindingAdapter @Inject constructor(
     @BindingAdapter(value = ["reviewCount"])
     fun TextView.reviewCount(reviewCount: Int?) {
         val cnt = reviewCount ?: 0
-        this.text = if (cnt >= 300)"(300+)" else "(${cnt})"
+        this.text = if (cnt >= 300) "(300+)" else "(${cnt})"
     }
 
     @BindingAdapter(value = ["useView"])

@@ -7,10 +7,6 @@ import com.crayon.tablinghomework.R
 import com.crayon.tablinghomework.databinding.ActivityMainBinding
 import com.crayon.tablinghomework.presentation.navigation.setupWithNavController
 import dagger.android.support.DaggerAppCompatActivity
-import android.view.MenuItem
-
-import android.view.Menu
-import androidx.core.view.get
 
 
 class MainActivity : DaggerAppCompatActivity() {
